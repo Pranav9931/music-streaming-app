@@ -1,0 +1,358 @@
+.MasterContent {
+  flex: 1;
+  padding-bottom: 40px;
+}
+.bannerImg {
+  width: 100%;
+  flex: 1;
+  height: 350px;
+  background-color: #000;
+  background: url("../../images/HeaderTST_Band2019-1920x600.jpeg");
+  background-position: top center;
+  background-attachment: fixed;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+}
+.gradientLayer {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  background: linear-gradient(to bottom, #00000000, #022234);
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  color: #fff;
+  /* padding-left: 30px; */
+}
+.bandName {
+  font-size: 5em;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-left: 40px;
+}
+
+.gradientLayer div {
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.bandDetails {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.gradientLayer div button {
+  background: #d1d1d1;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+
+  border: none;
+  margin: 0px 20px;
+}
+
+.usefulBtn {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  margin-top: -33px;
+  z-index: 10;
+}
+
+.btnRt {
+  display: flex;
+  align-items: center;
+}
+.rtBtn {
+  background: #000;
+  color: #fff;
+  padding: 15px;
+  border-radius: 50%;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.rtBtn:nth-child(4) {
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 15px 25px;
+  font-weight: 600;
+}
+.playBtn {
+  padding: 20px;
+  line-height: 0;
+  background: #ff8302;
+  border-radius: 50%;
+  align-items: center;
+  cursor: pointer;
+}
+
+.rtBtn:hover {
+  color: #ff8302;
+}
+
+.content {
+  width: 100%;
+  min-height: 500px;
+  background: linear-gradient(to bottom, #111, #000);
+  z-index: 1;
+  margin-top: -33px;
+  padding-bottom: 70px;
+}
+
+.songSection {
+  padding: 60px 30px 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.popularSong {
+  font-weight: 700;
+  font-size: 1.7em;
+}
+
+.seeMore {
+  opacity: 0.4;
+  cursor: pointer;
+}
+.seeMore:hover {
+  color: #ff8302;
+  opacity: 1;
+}
+
+.songs {
+  display: flex;
+  flex-direction: column;
+}
+.songs .wrap {
+  color: #444;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.wrap span:nth-child(1) {
+  flex: 0.4;
+}
+
+.wrap span:nth-child(3) {
+  flex: 0.27;
+}
+
+.songWrapper {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 30px;
+}
+
+.songWrapper .song {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  flex: 1;
+  align-items: center;
+  font-weight: 500;
+  padding: 5px 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.song:hover {
+  background: linear-gradient(to right, #222 70%, #000);
+}
+.songWrapper img {
+  height: 60px;
+  border-radius: 1em;
+  padding: 0px 20px;
+}
+.songTitle_Date_Type {
+  display: flex;
+  flex-direction: column;
+}
+
+.publishDate {
+  opacity: 0.4;
+  display: flex;
+  align-items: center;
+}
+
+.bulletPoint {
+  width: 7px;
+  height: 7px;
+  margin: 0 10px;
+  background: #fff;
+  border-radius: 50%;
+}
+.wrapElements {
+  display: flex;
+  align-items: center;
+  flex: 0.47;
+}
+
+.editOptions {
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+}
+
+.edit {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin-left: 30px;
+  font-size: 1.25em;
+}
+
+.song:hover .edit {
+  background: #222;
+}
+
+.albumSection {
+  color: #fff;
+}
+
+.albumContent {
+  padding: 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.albums {
+  width: 200px;
+  background-color: #181818;
+  background: linear-gradient(to bottom, #181818 60%, #111);
+  min-height: 250px;
+  padding: 5px;
+  border-radius: 3px;
+  padding-bottom: 15px;
+  border: 0.1em solid #222;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+.albums img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.albumDetails {
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: column;
+}
+.alb-title {
+  font-weight: 500;
+}
+.alb-detail {
+  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.albPlayBtn {
+  background: #ff8320;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  position: absolute;
+  margin: 10px 0 -5px 145px;
+  display: none;
+  cursor: pointer;
+  left: 10;
+}
+
+.albums:hover .albPlayBtn {
+  display: flex;
+  margin-bottom: 0;
+}
+
+.albums:hover {
+  background: linear-gradient(to bottom, #181818, #222);
+}
+
+@media screen and (max-width: 1200px) {
+  .wrap span:nth-child(2) {
+    display: none;
+  }
+  .wrap span:nth-child(3) {
+    flex: 0.275;
+  }
+  .song .NoofPlays {
+    display: none;
+  }
+  .song .wrapElements {
+    flex: 0.72;
+  }
+  .albumContent {
+    justify-content: space-between;
+  }
+  .albums {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .MasterContent {
+    width: 100%;
+  }
+  .albums {
+    font-size: 0.8em;
+  }
+  .gradientLayer {
+    font-size: 0.6em;
+  }
+  .bannerImg {
+    height: 300px;
+  }
+  .usefulBtn {
+    padding: 0 15px;
+  }
+  .rtBtn:nth-child(1) {
+    display: none;
+  }
+  .rtBtn:nth-child(4) {
+    display: block;
+  }
+  .wrap span:last-child {
+    display: none;
+  }
+  .songWrapper {
+    font-size: 0.8em;
+  }
+  .songWrapper .song img {
+    width: 50px;
+    height: 50px;
+  }
+  .song .songDuration {
+    display: none;
+  }
+  .song .wrapElements {
+    flex: 1;
+  }
+  .songWrapper {
+    padding: 10px;
+  }
+  .seeMore:nth-child(2) {
+    display: none;
+  }
+  .albums {
+    width: 100%;
+    font-size: 1.3em;
+  }
+  .albPlayBtn {
+    display: flex;
+    margin-left: 12em;
+  }
+}

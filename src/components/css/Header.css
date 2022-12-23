@@ -1,0 +1,190 @@
+.header {
+  background-color: #000;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo img {
+  width: 110px;
+}
+
+.MenuIcon {
+  display: none;
+}
+.searchBar {
+  display: flex;
+  flex: 0.7;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBar .lt-rt-icons {
+  color: #fff;
+  margin-right: 1.5em;
+}
+
+.arrow {
+  border: 0.05em solid rgba(255, 255, 255, 0.3);
+  padding: 4px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  text-align: center;
+  line-height: 38px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.arrow-lt {
+  background-color: #222;
+  border: none;
+}
+.arrow-rt {
+  opacity: 0.4;
+}
+.arrow-rt:hover {
+  background-color: #222;
+  border-color: transparent;
+  opacity: 1;
+}
+
+.searchForm {
+  margin-left: 5px;
+  display: flex;
+  flex: 1;
+  color: #fff;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.searchForm form {
+  flex: 1;
+}
+.searchForm form input {
+  background: #222;
+  border: none;
+  height: 40px;
+  width: 80%;
+  padding: 4px 20px 4px 40px;
+  border-radius: 20px;
+  color: #fff;
+  outline: none;
+  font-size: 1.05em;
+  font-family: "Poppins", sans-serif;
+}
+
+label {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+  padding: 4px;
+  color: #ff8302;
+  border-radius: 50%;
+  position: absolute;
+  margin: 6px 0 0 10px;
+}
+
+.profileSection {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.upgrade-btn {
+  border: 0.05em solid rgba(255, 255, 255, 0.15);
+  color: #ff8302;
+  height: 30px;
+  font-size: 0.8em;
+  padding: 4px 20px;
+  line-height: 30px;
+  border-radius: 2em;
+  font-weight: 500;
+  margin: 0 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.upgrade-btn:hover {
+  color: #fff;
+  background: #ff8302;
+}
+
+.profileSection .profile {
+  color: #fff;
+  border: 0.1em solid rgba(255, 255, 255, 0.15);
+  border-radius: 2em;
+  width: 80px;
+  height: 30px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.profile .txt {
+  position: relative;
+  float: right;
+  margin-top: 3px;
+}
+.profileSection img {
+  position: absolute;
+  width: 50px;
+  border-radius: 50%;
+  margin-top: -9px;
+}
+
+@media screen and (max-width: 1200px) {
+  .searchForm form {
+    flex: 1;
+  }
+  .searchForm form input {
+    width: 100%;
+  }
+  .upgrade-btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .MenuIcon {
+    display: block;
+    margin-right: -2.5vw;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding: 0 15px;
+  }
+  .lt-rt-icons {
+    display: none;
+  }
+  .logo img {
+    width: 80px;
+    margin-top: 8px;
+  }
+  .MenuIcon {
+    display: flex;
+    align-items: center;
+  }
+  .MenuIcon img {
+    width: 20px;
+  }
+  .searchForm form input {
+    height: 35px;
+    font-size: 0.9em;
+  }
+  .profileSection .profile {
+    height: 30px;
+    width: 65px;
+    padding: 0 5px;
+  }
+  .profileSection img {
+    width: 40px;
+    margin: -5px 0px;
+  }
+}

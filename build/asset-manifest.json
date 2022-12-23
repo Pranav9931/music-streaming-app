@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d3903079.css",
+    "main.js": "/static/js/main.58c8c139.js",
+    "static/js/787.0c504b30.chunk.js": "/static/js/787.0c504b30.chunk.js",
+    "static/media/HeaderTST_Band2019-1920x600.jpeg": "/static/media/HeaderTST_Band2019-1920x600.8404b394c26e0a3d5200.jpeg",
+    "static/media/App-Store-Logo.png": "/static/media/App-Store-Logo.f60de6e979631104ff63.png",
+    "static/media/photo-1535713875002-d1d0cf377fde.jpeg": "/static/media/photo-1535713875002-d1d0cf377fde.52e03ed1acb0969538a6.jpeg",
+    "static/media/Google_Play_Arrow_logo.png": "/static/media/Google_Play_Arrow_logo.b79f4f1a22f4267511a3.png",
+    "index.html": "/index.html",
+    "static/media/getFetch.cjs": "/static/media/getFetch.c780682470504fffbd04.cjs",
+    "main.d3903079.css.map": "/static/css/main.d3903079.css.map",
+    "main.58c8c139.js.map": "/static/js/main.58c8c139.js.map",
+    "787.0c504b30.chunk.js.map": "/static/js/787.0c504b30.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3903079.css",
+    "static/js/main.58c8c139.js"
+  ]
+}
